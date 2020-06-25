@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menubar
+{
+	height:70px;
+	width:100%;
+	background-color:black;
+	box-shadow:inset;
+	position:fixed;
+	right:0px;
+	left:0px;
+	margin-top:-2%;
+	border-bottom-style:outset;
+	box-shadow:inset;
+	z-index:1;
+		
+}
+
+.menudiv1
+{
+	height:46px;
+	position:relative;
+	top:20px;
+	width:20%;
+	color:#F60;
+	text-justify:auto;
+	font-family:"Courier New", Courier, monospace;
+	font-size:30px;
+	margin-top:4px;
+	font-weight:400;
+	text-align:center;
+}
+.menudiv2
+{
+	position:relative;
+	left:20%;
+	top:-28px;
+	height:46px;
+	width:70%;
+}
+
+.menubtn
+{
+	color:floralwhite;
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	height:30px;
+	width:20%;
+	margin-top:1%;
+	text-align:center;
+	font-weight:100;
+	float:left;
+	border-radius:4px;
+	transition: background-color 1s; 
+	
+}
+.menubtn a 
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.menubtn a:hover
+{
+	color:#990000;
+}
+.menubtn:hover
+{
+	font-size:22px;
+	color:#900;
+	background-color:#FFFFFF;
+	border-radius:4px;
+}
+.menudiv3
+{
+}
+
+
+.slides
+{
+	background:url(../images/cover2.jpg)   no-repeat;
+	width:100%;
+	height:500px;
+	position:absolute;
+	top:52px;
+	left:0px;
+	right:0px;
+	
+		
+}
+
+.about
+{
+	height:400px;
+	width:100%;
+	position:absolute;
+	top:552px;
+	left:0px;
+	right:0px;	
+	background-color:#F0F0F0;
+	
+}
+
+.about1
+{
+	height:40px;
+	width:100%;
+	position:relative;
+	top:10px;
+	text-align:center;
+	color:#000;
+	font-family:"Courier New", Courier, monospace;
+	font-size:28px;
+	text-transform:uppercase;
+	
+}
+
+.services
+{
+	background-color:#033;
+	height:400px;
+	width:100%;
+	position:absolute;
+	top:952px;
+	left:0px;
+	right:0px;
+}
+
+.services1
+{
+	height:40px;
+	width:100%;
+	position:relative;
+	top:10px;
+	text-align:center;
+	color:#FFF;
+	font-family:"Courier New", Courier, monospace;
+	font-size:28px;
+	text-transform:uppercase;
+	
+}
+.servicesdetail
+{
+	height:390px;
+	width:25%;
+	position:absolute;
+	color:white;
+	
+	
+	
+}
+.servicesdetail1
+{
+	background:#000;
+    height:200px;
+	width:60%;
+	border-radius:100px;
+	transition: background 1s ;
+	font-family:"Courier New", Courier, monospace;
+	font-size:34px;
+	font-weight:500;
+	text-align:center;
+	
+	
+}
+.servicesdetail1:hover
+{
+	background:#CCCCCC;
+	color:#990000;
+	
+    
+	
+}
+
+.getit
+{
+	background-color:#D3E7E6;
+	height:400px;
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:1352px;
+}
+
+.getit1
+{
+	height:40px;
+	width:100%;
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	font-size:24px;
+	color:white;
+		
+}
+.getit2
+{
+	height:320px;
+	width:50%;
+	position:absolute;
+	left:0px;
+	
+				
+}
+.getit3
+{
+	height:320px;
+	width:50%;
+	position:absolute;
+	right:0px;
+	
+					
+}
+
+.lognsign
+{
+	background-color:#FFF;
+	height:400px;
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:1752px;
+}
+.logf1
+{
+	
+	height:50px;
+	width:100%;
+	
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	text-transform:uppercase;
+	background:#096;
+	border-radius:4px;
+	border-style:none;
+	color:white;
+	font-size:22px;
+	
+}
+.logf2
+{
+	text-align:center;
+	height:48px;
+	width:50%;
+	color:#CC3300;
+	font-family:"MS Serif", "New York", serif;
+	font-size:18px;
+	font-weight:700;
+}
+.logf21
+{
+	width:240px;
+	height:32px;
+	border-radius:6px;
+	border-style:groove;
+	color:red;
+	text-align:center;
+	transition: background 1s;
+}
+.logf21:hover
+{
+	background:#000000;
+	color:white;
+}
+.logf3
+{
+	width:100px;
+	height:36px;
+	border-radius:6px;
+	border-style:none;
+	background:#000000;
+	color:white;
+	font-size:14px;
+	border-color:white;
+	font-family:"Lucida Console", Monaco, monospace;
+	transition: background 1s;
+	
+}
+.logf3:hover
+{
+	background:#096;
+	color:white;
+}
+
+.login
+{
+	height:395px;
+	
+	width:49.50%;
+	position:absolute;
+	left:0px;
+	
+}
+.signup
+{
+	height:395px;
+	
+	width:49.50%;
+	
+	right:0px;
+	position:absolute;
+	
+}
+
+
+.backbtn
+{
+	height:44px;
+	width:44px;
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	background:#F63;
+	border-radius:100px;
+	border-style:none;
+	transition: background 1s, height 1s, width 1s;
+	text-align:center;
+	}
+.backbtn:hover
+{
+	background:white;
+	height:50px;
+	width:50px;
+	
+}
+
+
+.foot
+{
+	height:200px;
+	width:100%;
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:2152px;
+	
+	background:#000000;
+	
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link  rel='stylesheet' type="text/css" href='./css/iaascss.css' />
+</head>
+
+<body>
+<div class="launch">LAUNCH YOUR INSTANCE</div>
+<form  method="GET" action="http://192.168.43.202/cgi-bin/iaas.py">
+<!-- DIV IMAGES -->
+<div class="images">
+	<div class="head">SELECT IMAGE</div>
+    <div class="images2">
+
+ <div class="images21" style="left:50px;  background:url(../images/redhat.png);" ><input type="radio" name="image" value="redhat" /></div>
+ <div class="images21" style="left:240px; background:url(../images/windows.png);"><input type="radio" name="image" value="windows"/></div>
+ <div class="images21" style="left:430px; background:url(../images/kali.png);"><input type="radio" name="image"
+value="kali"/></div>
+ <div class="images21" style="left:620px; background:url(../images/mint.png);"><input type="radio" name="image"
+value="mint" /></div>
+    </div>
+</div>
+<!-- IMAGES DIV END -->
+
+<!-- DIV RAM -->
+<div class="ram">
+		<div class="head"> SELECT RAM SIZE</div>
+        <div class="ram1"> RAM SIZE :</div>
+        <div class="ram2">
+        <select name="ram">
+        <option>512</option>
+        <option>1024</option>
+        <option>2048</option>
+        <option>4096</option>
+        </select>
+        <div>
+</div>
+<!-- RAM DIV END -->
+
+<!-- DIB HARD DISK -->
+<div class="HDD">
+	<div class="head"> SELECT HARD DRIVE SIZE</div>
+	<div class="HDD1">HARD DISK SIZE:</div>
+	<div class="HDD2"> <input type="text" name="hdd" placeholder="Enter Hard Disk Size: eg 10G" /></div>
+</div>
+<!-- HARD DISK DIV END -->
+
+<!-- CPU -->
+<div class="cpu">
+	<div class="head">SELECT CPU CORE: </div>
+	<div class="cpu1">CPU:</div>
+	<div class="cpu2">
+	<select name="cpu">
+        <option>1</option>
+        <option>2</option>
+        <option>4</option>
+        </select>
+	</div>
+</div>
+<!-- CPU DIV END -->
+<div class="launchbtn"><input type="submit" name="sub" value="Launch" /></div>
+</form>
+</body>
+</html>

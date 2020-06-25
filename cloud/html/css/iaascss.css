@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+.launch
+{
+	background:#033;
+	height:30px;
+	color:white;
+	width:100%;
+	position:fixed;
+	left:0px;
+	right:0px;
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	font-size:24px;
+	border-style:none;
+
+}
+.images
+{
+	height:220px;
+	width:100%;
+	position:fixed;
+	top:38px;
+	left:0px;
+	right:0px;
+	background:#FFF;
+}
+.head
+{
+	height:26px;
+	width:30%;
+	color:#FFFFFF;
+	position:relative;
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	background:#993300;
+	font-size:20px;
+	border-style:none;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	box-shadow:#000 -1px 0.5px 1px 1px; ;
+	left:8px;
+	
+	
+}
+.images2
+{
+	height:200px;
+	width:100%;
+	top:30px;
+	position:relative;
+	left:08px;
+}
+.images21
+{
+	
+	border-radius:10px;
+	border-style:none;
+	width:140px;
+	height:140px;
+	position:absolute;
+	transition:opacity 1s,border-radius 1s;
+}
+.images21:hover
+{
+	
+	opacity:0.6;
+	border-radius:100px;
+	transform:;
+}
+.images21 input
+{
+	background-color:transparent;
+	height:140px;
+	position:relative;
+	left:-4px;
+	width:140px;
+	
+}
+
+.ram
+{
+	background:#FFFFFF;
+	width:100%;
+	height:80px;
+	position:absolute;
+	top:260px;
+	left:0px;
+	right:0px;
+}
+.ram1
+{
+	height:30px;
+	position:relative;
+	top:12px;
+	width:150px;
+	text-align:center;
+	color:#993300;
+	font-size:20px;
+	font-family:"Courier New", Courier, monospace;
+	
+}
+.ram2
+{
+	height:40px;
+	position:relative;
+	left:20%;
+	width:200px;
+	bottom:20px;
+	
+}
+.ram2 select
+{
+	width:240px;
+	text-align:center;
+	border-style:double;
+	border-radius:4px;
+	height:26px;
+	color:#993300;
+	font-size:16px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.ram2 option
+{
+	background:#999;
+	color:white;
+	
+}
+
+.HDD
+{
+	background:#FFFFFF;
+	width:100%;
+	height:80px;
+	position:fixed;
+	top:342px;
+	left:0px;
+	right:0px;
+}
+.HDD1
+{
+	height:30px;
+	position:relative;
+	top:12px;
+	width:250px;
+	text-align:center;
+	color:#993300;
+	font-size:20px;
+	font-family:"Courier New", Courier, monospace;
+	
+}
+.HDD2
+{
+        height:40px;
+	position:relative;
+	left:20%;
+	width:200px;
+	bottom:20px;
+}
+.HDD2 input
+{
+	width:240px;
+	text-align:center;
+	border-style:double;
+	border-radius:4px;
+	height:26px;
+	color:#993300;
+	font-size:12px;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.cpu
+{
+
+	background:#FFFFFF;
+	width:100%;
+	height:80px;
+	position:fixed;
+	top:424px;
+	left:0px;
+	right:0px;
+}
+.cpu1
+{
+	height:30px;
+	position:relative;
+	top:12px;
+	width:250px;
+	text-align:center;
+	color:#993300;
+	font-size:20px;
+	font-family:"Courier New", Courier, monospace;
+	
+}
+
+.cpu2
+{
+	height:40px;
+	position:relative;
+	left:20%;
+	width:200px;
+	bottom:20px;
+}
+
+.cpu2 select
+{
+	width:240px;
+	text-align:center;
+	border-style:double;
+	border-radius:4px;
+	height:26px;
+	color:#993300;
+	font-size:16px;
+	font-family:"Courier New", Courier, monospace;
+}
+.cpu2 option
+{
+	background:#999;
+	color:white;
+	
+}
+
+.launchbtn
+{
+	height:30px;
+	width:100px;
+	position:fixed;
+	top:146px;
+	left:900px;	
+	z-index:1;
+	background:transparent;
+}
+.launchbtn input
+{
+	height:70px;
+	width:70px;
+	border-style:none;
+	background:#346565;
+	border-radius:120px;
+	transition:background 1s, border-style 1s;		
+	color:white;
+	font-family:"Courier New", Courier, monospace;
+}
+.launchbtn input:hover
+{
+	background:white;
+	color:#346565;
+	border-style:double;
+	
+}
